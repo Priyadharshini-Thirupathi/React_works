@@ -1,0 +1,35 @@
+.dd--outline {
+  font-family: Lata, "Heveltica Neue", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 20px;
+  padding: 20px;
+}
+.dd--header {
+  border: 0.5px solid black;
+  position: relative;
+  bottom: 10%;
+  width: 61px;
+}
+.dd--options {
+  border: 0.5px solid black;
+  position: absolute;
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 0 0;
+  height: 150px;
+  width: 105px;
+}
+.dd--option {
+  border: none;
+}
+:where(.dd--header, .dd--options, .dd--option, .dd--option:hover, .dd--option:active) {
+  padding: 0.67857143em 2.1em 0.67857143em 1em;
+  line-height: 1.21428571em;
+  text-align: center;
+}
+.dd--option:hover {
+  background-color: #d7d8da;
+}
+.dd--option:active {
+  background-color: #c9cbce;
+}

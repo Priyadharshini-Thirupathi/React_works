@@ -1,0 +1,29 @@
+.container{
+  -webkit-text-size-adjust: 100%;
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 1.4285em;
+  color: rgba(0,0,0,.87);
+  -webkit-box-direction: normal;
+  box-sizing: inherit;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%!important;
+  padding: 2rem;
+}
+
+:where(#q1,#q2,#q3){
+  background: #e0e1e2 ;
+  height: 50px;
+  width: 400px;
+  box-sizing: border-box;
+  display: block;
+  padding: 7px;
+  font-family: Lata, "Heveltica Neue",Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-size-adjust: 100%;
+  color: rgba(0, 0, 0, 0.87);
+  margin: 20px 10 px;
+}

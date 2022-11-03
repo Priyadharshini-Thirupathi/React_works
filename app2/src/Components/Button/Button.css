@@ -1,0 +1,65 @@
+.button{
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  border-radius: 4.6px;
+  padding: 10px 20px;
+  margin: 20px;
+  border-color: white;
+  line-height: 1em;
+}
+
+.primary.button{
+  background-color: #2c87cd;
+  color: #fff;
+  border: none;
+}
+
+.primary:hover{
+  background-color: #1678c2;
+}
+
+.secondary.button{
+  background-color: black;
+  color: #fff;
+  border: none;
+}
+
+.outline.button{
+  background-color: white;
+  color: rgb(235, 34, 101);
+  border-color: rgb(226, 25, 92);
+}
+
+.outline:hover{
+  background-color: rgb(225, 15, 85);
+  color: white;
+}
+
+.pilled{
+  outline: 0;
+  border: none;
+  vertical-align: baseline;
+  background: #e0e1e2 ;
+  color: rgba(0, 0, 0, 0.718);
+  border-radius: 16px;
+  border: none;
+}
+
+.default, .submit{
+  outline: 0;
+  border: none;
+  vertical-align: baseline;
+  background: #e0e1e2 ;
+  color: rgba(0, 0, 0, 0.718);
+}
+:where(.default, .pilled, .submit):hover {
+background-color: #cacbcd;
+}
+
+:where(.default, .pilled, .submit):active {
+  background-color: #babbbc;
+}
+

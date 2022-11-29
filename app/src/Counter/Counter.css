@@ -1,0 +1,21 @@
+.inc{
+  margin-right: 50px;
+  background-color: rgb(47, 154, 47);
+}
+.dec{
+  background-color: rgb(249, 28, 72);
+}
+.res{
+  margin: 40px;
+  background-color: rgb(114, 108, 108);
+}
+button{
+  font-size: 15px;
+  padding: 10px 20px;
+  border-color: azure;
+  color: white;
+}
+button:disabled{
+ background-color: lightcoral;
+
+}

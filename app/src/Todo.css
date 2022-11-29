@@ -1,0 +1,29 @@
+.todo--container {
+  margin: 70px;
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+#input {
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.display--tasks {
+  margin-bottom: 20px;
+}
+
+#checkbox {
+  margin-right: 10px;
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+}
+
+.task--item {
+  display: block;
+  padding: 5px;
+}
+
